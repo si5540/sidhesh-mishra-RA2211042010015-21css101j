@@ -1,0 +1,31 @@
+/*
+Write a C program to use a function int odd(int n)
+that receives one number and returns 1 if number
+is odd or zero if number is not odd.
+*/
+int odd(int n); /*function prototype or declaration*/
+#include<stdio.h>
+int main()
+{
+   int num1,ans;
+   /* Enter one number in main() */
+   printf("Enter a number to check for odd=");
+   scanf("%d", &num1);
+   /* call the function by sending one number */
+   ans = odd(num1);
+   if ( ans ==1)
+     printf("%d is odd number",num1);
+   else
+     printf("%d is not odd number",num1);
+     
+   return 0;  
+}
+/* wrtite down function definition */
+
+int odd(int n)
+{
+	if(n % 2 == 1)
+	  return 1;
+	else
+	  return 0;
+}
