@@ -1,0 +1,24 @@
+/*
+Write a C program to use a function square()
+that receives one number and returns its square
+*/
+int square(int a); /*function prototype or declaration*/
+#include<stdio.h>
+int main()
+{
+   int num1, result;
+   /* Enter one number in main() */
+   printf("Enter a number =");
+   scanf("%d", &num1);
+   /* call the function by sending one number */
+   result = square(num1);
+   printf("\n Square of %d = %d", num1,result);
+   return 0;  
+}
+/* wrtite down function definition */
+int square(int a)
+{
+	int s;
+	s = a * a;
+	return s;
+}
