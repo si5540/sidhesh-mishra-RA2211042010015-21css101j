@@ -1,0 +1,19 @@
+// Write a C program to Enter a number at run time
+// and display its Reverse Number
+// For example, if you Enters number=513
+// Program will show Reverse number=315
+// www.EasyCodeBook.com
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	long int num,n,rev;
+	printf("Enter an Integer Number:");
+	scanf("%ld",&num);
+	rev=0;
+	for(n=num;n!=0;n=n/10)
+	rev=(10*rev)+n%10;
+	printf("Actual Number: %ld\n",num);
+	printf("Reverse Number: %ld\n",rev);
+	return 0;
+}
