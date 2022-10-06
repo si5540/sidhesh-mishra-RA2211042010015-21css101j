@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+double findArea (double height, double width)
+{
+	return height*width;
+}
+
+
+
+int main()
+{
+	double h,w;
+	printf("Enter the height of the rectangle: ");
+	scanf("%lf",&h);
+	printf("Enter the width of the rectangle: ");
+	scanf("%lf",&w);
+
+	printf("The area of Rectangle is %.2lf",findArea(h,w));
+
+
+	return 0;
+}
