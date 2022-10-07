@@ -1,0 +1,11 @@
+ printf("\nPRESS 2.TO DISPLAY BOOK DETAILS.");
+  case 2:
+                    printf("\n\t\tDetails of All Book");
+                    printf("\n-----------------------------------------------------------\n");
+                    printf("Book No.   Book Name\t  Author Name\tNo. of Pages");
+                    printf("\n------------------------------------------------------------");
+                    for( i = 0 ; i < n ; i++)
+                    {
+                         printf("\n %d\t  %s\t  %s\t  %d",b[i].b_no,b[i].b_name,b[i].b_author,b[i].no_pages);
+                    }
+                    printf("\n\n");
