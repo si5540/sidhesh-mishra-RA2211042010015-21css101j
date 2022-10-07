@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+struct book
+{
+     int  b_no;
+     char b_name[40];
+     char b_author[40];
+     int  no_pages;
+};
+int main()
+{
+     struct book b[20];
+     int    ch,n,i,count = 0;
+     char   temp[40];
+     do
+     {
+          printf("\t\tMENU");
+          printf("\n-------------------------------------\n");
+          printf("PRESS 1.TO ADD BOOK DETAILS.");
+          #include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+struct book
+{
+     int  b_no;
+     char b_name[40];
+     char b_author[40];
+     int  no_pages;
+};
+int main()
+{
+     struct book b[20];
+     int    ch,n,i,count = 0;
+     char   temp[40];
+     do
+     {
+          printf("\t\tMENU");
+          printf("\n-------------------------------------\n");
+          printf("PRESS 1.TO ADD BOOK DETAILS.");
