@@ -1,0 +1,14 @@
+case 4 :
+                    for( i = 0 ; i < n ; i++)
+                    {
+                         count++;
+                    }
+                    printf("\nTotal Number of Books in Library : %d\n",count);
+                    printf("-----------------------------------------\n");
+                    break;
+               case 5 :
+                    exit(0);
+          }
+     }while(ch != 5);
+     return 0;
+}
