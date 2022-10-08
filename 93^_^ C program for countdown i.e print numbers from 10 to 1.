@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+      int i=1;
+      for(i=10;i>=1;i--)
+      {
+            printf("%d\t",i); // \t gives the space between numbers.
+      }
+      return 0;
+}
