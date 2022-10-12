@@ -7,6 +7,7 @@
 
 int main()
 {
+	printf("RA2211042010015");	
 	long int binNum,rem,n,i,decimal;
 	printf("Enter a Binary Number:");
 	scanf("%ld",&binNum);
