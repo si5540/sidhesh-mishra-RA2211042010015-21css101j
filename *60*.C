@@ -9,6 +9,7 @@
 #include <string.h>
 int main()
 {
+   printf("RA2211042010015");
    char str1[100], str2[100];
 
    printf("Enter first string for comparing (case insensitive)\n");
