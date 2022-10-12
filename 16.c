@@ -5,7 +5,8 @@ also known as conditional operator in c
 */
 #include<stdio.h>  
 int main()   
-{   
+{ 
+    printf("2211042010015");
     int number;
     
     /* Input a number from user at execution time */
