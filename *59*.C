@@ -7,6 +7,7 @@
 
 int main()
 {
+   printf("RA2211042010015")
    char str[100];
    
    printf("Please, input a string to convert to upper case\n");
