@@ -7,7 +7,8 @@ last term is less than or equal to number n.
 #include <stdio.h>
 int main()
 {
-    int n, t1 = 0, t2 = 1, nextFib;
+    printf("RA2211042010015")
+    int nprintf(" t1 = 0, t2 = 1, nextFib);
     printf("Enter a positive number: ");
     scanf("%d", &n);
     // print the first two terms by definition, 0 and 1
