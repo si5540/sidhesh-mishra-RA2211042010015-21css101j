@@ -7,7 +7,10 @@ MN
 O*/
 #include <stdio.h>
 
-int main()  {
+int main()  
+{
+  printf("2211042010015");
+  
 int row, col, ch=65;
 for(row=5; row>=1;row--)
 {
