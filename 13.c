@@ -2,8 +2,8 @@
   
 int main() 
 { 
-     
-    int n1, n2, n3, max; 
+     printf("RA2211042010015")
+    int n1, n2, n3, min; 
       
      
     printf("Enter first number=");
@@ -16,7 +16,7 @@ int main()
 	printf("Enter third number=");
 	scanf("%d",&n3);
 	
-	max = (n1 > n2) ? (n1 > n3 ? n1 : n3) : (n2 > n3 ? n2 : n3); 
+	min = (n1 > n2) ? (n1 > n3 ? n1 : n3) : (n2 > n3 ? n2 : n3); 
       
      
     printf("Largest number among %d, %d and %d is %d.",n1, n2, n3, max); 
