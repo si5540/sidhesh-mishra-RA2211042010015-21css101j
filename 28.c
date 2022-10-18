@@ -1,6 +1,5 @@
 /* C Program to Count frequencies
 of each element of an array of numbers
-       www.EasyCodeBook.com
  */
 #include <stdio.h>
 
