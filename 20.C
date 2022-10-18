@@ -8,6 +8,7 @@ or largest number in array
 
 int main()
 {
+   printf("RA2211042010015")
    int numArray[5], i, max;
    /*input in array using for loop*/
    for(i=0; i<5; i++)
