@@ -8,6 +8,7 @@ Display all values from array
 
 int main()
 {
+   printf("RA2211042010015")
    float floatArray[10];
    int i;
    //input in array using for loop
