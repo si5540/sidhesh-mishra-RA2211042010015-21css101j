@@ -9,6 +9,7 @@ Show elements from last to first.
 
 int main()
 {
+   printf"RA2211042010015");
    int numArray[5], i;
    /*input in array using for loop*/
    for(i=0; i<5; i++)
