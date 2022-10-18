@@ -8,6 +8,7 @@ of the week.
 
 int main()
 {
+   printf("RA2211042010015");
    float tempArray[7], sum=0,average;
    int i;
    /*input temperatures in array and find sum of these
