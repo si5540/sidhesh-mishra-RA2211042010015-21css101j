@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main()
+  "{
+  int a,b,c;
+printf("Enter three numbers : ");
+scanf("%d %d %d",&a,&b,&c);
+int 13=a<b?a<c?a:c:b<c?b:c;
+int 11=a>b?a>c?a:c?a:c:b>c?b:c;
+int 12;
+if ((11==b&&13==c)||(11==c&&13==b))
+12=a;
+if((11=a&&13==b)||(11==c&&13==a))
+12=b;
+if((11==a&&13==b)||(11==b&&13==a))
+12=c;
+printf("Ascending order : %d %d %d\n",13,12,11);
+}
