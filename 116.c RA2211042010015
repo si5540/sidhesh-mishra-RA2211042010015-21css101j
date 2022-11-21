@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+     int i=3;
+     switch (i)
+     {
+        case 1:
+           printf("Case1");
+        case 2:
+           printf("Case2");
+        case 3:
+           printf("Case3");
+        case 4:
+           printf("Case4");
+        case 5:
+           printf("case5");
+        case 6:
+           printf("case6");
+        default:
+           printf("Default ");
+     }
+    return 0;
+}
