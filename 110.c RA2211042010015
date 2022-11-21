@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+        int ID = 5;
+        int password = 0;
+        printf("Plese Enter Your ID:\n ");
+        scanf("%d", & ID);
+        switch (ID) {
+            case 5:
+                printf("Enter your password:\n ");
+                scanf("%d", & password);
+                switch (password) {
+                    case 0:
+                        printf("Welcome Dear Programmer\n");
+                        break;
+                    default:
+                        printf("incorrect password");
+                        break;
+                }
+                break;
+            default:
+                printf("incorrect ID");
+                break;
+        }
+}
