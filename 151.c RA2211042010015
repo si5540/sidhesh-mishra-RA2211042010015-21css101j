@@ -1,0 +1,11 @@
+#include <stdio.h>  
+int main()  
+{  
+    int a=500;  
+    int b=1000;  
+    const int* ptr;  
+    ptr=&a;  
+    ptr=&b;  
+    printf("Value of ptr is :%u",ptr);  
+    return 0;  
+}  
