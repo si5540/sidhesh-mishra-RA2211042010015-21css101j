@@ -36,7 +36,7 @@ int main()
             {
                   if(i!=j)
                   {
-                        printf("%d ",a[i][j]); //Minor diagonal not considered here
+                        printf("%d ",a[i][j]);
                         s=s+a[i][j];
                   }
             }
