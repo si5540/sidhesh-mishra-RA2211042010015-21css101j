@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+      int a[10],*s,i,small;
+      s=&a[0];
+      printf("Enter 10-Elements :\n\n ");
+      for(i=0;i<10;i++,s++)
+            scanf("%d",s);
+      s=&a[0];
+      small=*s;
+      for(i=0;i<10;i++,s++)
+            if(*s<small)
+                  small=*s;
+      printf("\nSmallest Element : %d",small);
+      return 0;
+}
