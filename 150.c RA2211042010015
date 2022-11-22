@@ -1,0 +1,8 @@
+#include <stdio.h>  
+int main()  
+{  
+  double i=67.0;   
+  float j=6.88;  
+  printf("size of (i+j) expression is : %d",sizeof(i+j));  
+  return 0;  
+}  
