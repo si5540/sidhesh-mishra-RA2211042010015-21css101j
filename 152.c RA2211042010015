@@ -1,0 +1,11 @@
+#include <stdio.h>  
+int main()  
+{  
+    int a=70;  
+    int b=90;  
+    const int* const ptr=&a;  
+   *ptr=17;  
+    ptr=&b;  
+    printf("Value of ptr is :%d",*ptr);  
+    return 0;  
+}   
