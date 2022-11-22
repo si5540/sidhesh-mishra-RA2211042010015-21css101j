@@ -1,0 +1,10 @@
+#include<stdio.h>  
+int main(){  
+int number=20;        
+int *p;      
+p=&number;        
+printf("Address of p variable is %u\n",p);        
+p=p-4;    
+printf("After subtracting 3: Address of p variable is %u\n",p);        
+return 0;  
+}    
