@@ -1,0 +1,9 @@
+#include <stdio.h>  
+int main()  
+{  
+   int a=700;  
+   void *ptr;  
+   ptr=&a;  
+   printf("Value which is pointed by ptr pointer : %d",*ptr);  
+   return 0;  
+}  
