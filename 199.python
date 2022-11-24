@@ -1,0 +1,9 @@
+# program to count he number of vowels
+#string of vowels
+vowels='a,e,i,o,u'
+ip_str = ip_str.casefold()
+count = {}.fromkeys(vowels,0)
+for char in ip_str:
+ if char in count:
+  count [char] += 1
+print(count) 
